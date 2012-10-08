@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.charliecorner</groupId>
+  <artifactId>jNarwhal1</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <licenses>
+      <license>
+          <name>
+            GNU Lesser General Public License Version 3
+          </name>
+          <url>
+            http://www.gnu.org/licenses/lgpl.txt
+          </url>
+          <comments>
+              You may use this library as part of any project regardless of its license,
+              but any modification to the library itself must be made public under
+              the same license as this one.
+          </comments>
+      </license>
+  </licenses>  
+
+  <name>jNarwhal</name>
+  <url>https://github.com/CharlieCorner/jNarwhal</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
