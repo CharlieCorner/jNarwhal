@@ -19,9 +19,9 @@ public class Main {
             List<Object> errores = s.login("", "");
             
             if(errores.isEmpty()){
-                System.out.println("Exito");
+                System.out.println("Success");
             } else {
-                System.out.println("No hubo exito");
+                System.out.println("No success");
                 
                 for (Object str : errores) {
                     System.out.println(str);
